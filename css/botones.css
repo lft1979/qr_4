@@ -1,0 +1,246 @@
+/* CSS Document */
+
+.btn {
+background:#3A4B65;
+border-color: transparent;
+color: #FFF;
+font-size: 11px;
+font-weight: bold;
+float: right;
+height: 27px;
+width:90px;
+text-align:center;
+
+
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow: 0 3px 0  #D5EAFF, 0 -1px #fff inset;
+-moz-box-shadow: 0 3px 0 #D5EAFF, 0 -1px #fff inset;
+box-shadow: 0 3px 0  #A8D3FF, 0 -1px #fff inset;
+border:none;
+outline:none;
+display: inline-block;
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+cursor:pointer;
+}
+
+.btn:hover  {
+background:#A8D3FF ;
+-webkit-box-shadow: 0 3px 0  #3A4B65, 0 -1px #fff inset;
+-moz-box-shadow: 0 3px 0 #3A4B65, 0 -1px #fff inset;
+box-shadow: 0 3px 0  #3A4B65, 0 -1px #fff inset;
+
+}
+
+#boton_carpeta{
+	width: 30px;
+	height: 30px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/abrir.png) no-repeat center;
+	cursor:pointer;
+	
+		
+	
+}
+
+#boton_enviar {
+	width: 120px;
+	height: 35px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/boton_enviar.gif) no-repeat  center;
+	cursor:pointer;
+	
+}
+
+#boton_buscar{
+cursor:pointer;
+background: #fed870; /* Old browsers */
+    background: -moz-linear-gradient(top, #fed870 0%, #fdbe43 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fed870), color-stop(100%,#fdbe43)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fed870 0%,#fdbe43 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fed870 0%,#fdbe43 100%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #fed870 0%,#fdbe43 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FED870', endColorstr='#FDBE43',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #fed870 0%,#fdbe43 100%); /* W3C */
+    display:inline-block;
+	width:90px;
+	height:22px;    
+    border-radius:5px;
+	text-align:center;
+    font-size:14px;
+    color:#b17902;    
+    border:1px solid #e3b346;
+    border-bottom-color:#ca9326;
+    box-shadow:0 1px 3px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.4);	
+}
+
+#boton_buscar2{
+	width: 30px;
+	height: 20px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/adminicons/lupa_buscar.png) no-repeat center ;
+	cursor:pointer;
+	
+}
+
+#boton_guardar{
+	width: 107px;
+	height: 27px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/boton.guardar.gif) no-repeat center ;
+	cursor:pointer;
+	
+}
+#boton_agregar {
+	width: 100px;
+	height: 28px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/agregar_gif.gif) no-repeat center ;
+	cursor:pointer;
+	
+}
+
+#boton_limpiar {
+	width: 120px;
+	height: 35px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/boton_limpiar.gif) no-repeat  center;
+	cursor:pointer;
+	
+}
+
+#boton_cerrar {
+	width: 80px;
+	height: 35px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/cerrar.png) no-repeat  center;
+	cursor:pointer;  	
+}
+
+#boton_close{
+	width: 28px;
+	height: 28px;	
+	border: 1px hidden transparent;
+	background: url(../images/adminicons/delete.png) no-repeat  center;
+	cursor:pointer;
+	float:right;
+	text-align:right;
+	 
+	  	
+}
+
+#boton_subir{
+	width: 100px;
+	height: 35px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/adminicons/boton_subir.gif) no-repeat  center;
+	cursor:pointer;  	
+} 
+#boton_actualizar {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/ok.png) no-repeat  center;
+	cursor:pointer;  	
+}
+#boton_eliminar2 {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/cancel.png) no-repeat;
+	cursor:pointer;	
+}
+#boton_adelante {
+	font-size:0px;
+	width: 35px;
+	height: 30px;	
+	border: 0px ;
+	background: url(../images/boton_der.jpg) no-repeat;
+	cursor:pointer;	
+}
+#boton_exit{
+	font-size:0px;
+	width: 80px;
+	height: 80px;	
+	border: 0px ;
+	background: url(../images/exit.jpg) no-repeat;
+	cursor:pointer;	
+}
+
+#boton_eliminar {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/cancel.png) no-repeat;
+	cursor:pointer;	
+}
+
+#boton_nuevo {
+	width: 80px;
+	height: 35px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/edit_add.png)  no-repeat center;  
+	
+}
+
+#boton_editar {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/adminicons/edit.png) no-repeat center;
+	cursor:pointer;	  
+	
+}
+
+#boton_imprimir1 {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/icono_imprimir.jpg) no-repeat center;
+	cursor:pointer;	  
+	
+}
+
+#boton_imprimir2 {
+	font-size:0px;
+	width: 20px;
+	height: 20px;	
+	border: 0px ;
+	background: url(../images/editar.gif) no-repeat center;
+	cursor:pointer;	  
+	
+}
+
+#boton_excel {
+	width: 37px;
+	height: 37px;	
+	border: 0px hidden #5c909a;
+	background: url(../images/icono_excel.gif)  no-repeat center; 
+        cursor:pointer; 
+	
+}
+
+
+
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.custom-input-file .input-file {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+    border: 1px solid  #FF0000;
+    position:relative;
+
+}
