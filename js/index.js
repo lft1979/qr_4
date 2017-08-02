@@ -58,12 +58,12 @@ var app = {
 
         scanner.scan( function (result) { 
 
-            alert("We got a barcode\n" + 
+            alert("Tenemos un código de barras\n" + 
             "Result: " + result.text + "\n" + 
             "Format: " + result.format + "\n" + 
             "Cancelled: " + result.cancelled);  
 
-           console.log("Scanner result: \n" +
+           console.log("Resultado del escáner: \n" +
                 "text: " + result.text + "\n" +
                 "format: " + result.format + "\n" +
                 "cancelled: " + result.cancelled + "\n");
@@ -76,7 +76,7 @@ var app = {
             */
 
         }, function (error) { 
-            console.log("Scanning failed: ", error); 
+            console.log("Fallo Scan: ", error); 
         } );
     },
 
