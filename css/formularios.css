@@ -1,0 +1,361 @@
+/* CSS Document */
+
+/* Formatear el formulario a dos columnas */
+ 
+.izquierda {
+	/* 
+float: left;
+clear: left;
+*/
+text-align:left;
+}
+ 
+.derecha {
+	/*
+float: right;
+clear: right;
+*/
+text-align: right;
+}
+
+
+.centro {
+
+text-align: center;
+}
+ 
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+ 
+#contenedor {
+  background: transparent;
+  border-radius:5px; 
+  padding:6px;
+  width:97%;
+  border:0px solid  #000;
+  margin: 0 auto;
+ 
+ 
+}
+
+#contenedor2 {
+  background:#ededed;
+  border-radius:10px;
+  margin:auto;
+  padding:6px;
+  width:1150px;
+  border:0 solid 666666;
+  
+ 
+}
+
+#contenedor3 {
+  background:#ededed;
+  border-radius:5px;
+  margin:auto;
+  padding:6px;
+  width:970px;
+  border:0px solid  #666666;
+  
+  
+}
+
+#contenedor4 {
+  background: transparent;
+  border-radius:5px;
+  margin:auto;
+  padding:6px;
+  width:830px; 
+  border:0px solid  #666666;
+}
+
+#contenedor5 {
+border-radius:5px; 
+padding:6px;
+width:99%;
+border: none;
+margin: 0 auto;
+vertical-align: middle;
+  
+}
+ 
+b.requerido {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #C00;
+}
+ 
+h2 {
+  font: normal 1.5em arial, sans-serif;
+  margin: 0;
+  color: #FFF;   
+  
+  text-align:left;
+ 
+  
+}
+ 
+ol li.botones {
+  border-top:1px solid  #333333;  
+  clear: both;
+  float: none;
+  padding: 0 0;
+  margin-top:0;
+  text-align: right;
+}
+ 
+ol li.botones input {
+  
+  margin:2px 0 0 0;
+  
+}
+ 
+
+ 
+ol li label.titulo {
+  font-weight: bold;
+ 
+}
+ 
+ol li div span {
+  float: left;
+  padding:0;
+}
+ 
+.completo {
+  width: 99%;
+}
+ 
+.mitad {
+  width: 48%;
+ border:0px #FF0000 solid;}
+ 
+.tercio {
+  width: 33%;
+    border:0px #FF0000 solid;  
+}
+
+.cuarto {
+  width: 24%;
+    border:0px #FF0000 solid;  
+}
+
+.sexto{
+  width: 18%;
+    border:0px #FF0000 solid;  
+}
+
+.decimo{
+  width: 10%;
+    border:0px #FF0000 solid;  
+}
+
+ 
+.dostercios {
+  width: 66%;
+  border:0px #FF0000 solid;
+}
+
+
+ 
+ol li div span label {
+  display: block;
+  font: normal 0.8em arial, sans-serif;
+  color: #333;
+}
+ 
+.ayuda {
+  display: none;
+}
+ 
+input[type=text], input[type=password]{
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+border-radius:4px;
+-webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+-moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+background: #f8f8f8;
+color: #000;
+font-size:14px;
+font-weight:bold;
+border:none;
+outline:none;
+display: inline-block;
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+cursor: text ;
+height:25px;
+	
+}
+
+
+select {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color: #999;
+	font-size:14px;
+	font-weight:bold;
+	
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor: text;
+	height:25px;
+}
+
+select:focus 
+{
+border:1px solid  #CCC;
+}
+
+.input_extralargo{
+  width: 450px;
+}
+
+.input_completo{
+  width:100%;
+} 
+.input_largo{
+  width: 300px;
+}
+ 
+.input_corto{
+  width: 90px;
+}
+ 
+.select_corto{
+  width: 90px;
+}
+
+.input_medio{
+  width: 150px;
+}
+
+.select_medio{
+  width: 150px;
+}
+ 
+.select_largo {
+  width: 300px;
+}
+
+.select_extralargo {
+  width: 450px;
+}
+ 
+
+ 
+/* Cambiar el color en el :hover y resaltar los campos en el :focus */
+ol li:hover {
+/* background-color:#f2f2f2;*/
+}
+ 
+
+ 
+ol li input:focus {
+  border: 1px solid 6666FF;
+}
+ 
+/* Formatear el formulario a una columna */
+ol li.izquierda, ol li.derecha {
+  float: none;
+  width: auto;
+}
+
+ 
+ol li label.titulo {
+  float: left;
+  width: 150px;
+}
+ 
+
+ 
+ol li {
+ border-button: 1px solid  #333333;
+  margin: 0;
+  padding: 1em;
+   
+}
+ 
+ol li.botones {
+  margin: 0;
+}
+ 
+ol li label.titulo {
+  text-align: right;
+  width: 100px;
+}
+
+ 
+ol li div {
+  margin-left: 40px;/*Alinea a la derecha todo el formulario*/
+  overflow: hidden;
+}
+ 
+ol li {
+  position: relative;
+}
+ 
+ol li:hover p.ayuda {
+  display: block;
+  margin: 0.3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+}
+
+.mensaje_rojo {
+text-align:center;
+color:#FF0000;
+float: right;
+font-size:12px;
+width:300px;
+text-align:right;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.estado{
+float: right;
+text-align: center;
+}
+
+.redondeado{
+  
+  border-radius:5px;    
+  color:#333333;
+  
+}
+
+.error{
+
+color: #ff4c4d;
+}
+
+.correcto{
+color: #3C6;
+
+}
+
+#resultado
+{
+float: left;
+width:70%;
+
+}

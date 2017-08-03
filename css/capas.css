@@ -1,0 +1,10 @@
+/* CSS Document */
+/*
+#capa2      { width:100%; height: 430px;border:0px dashed  #000000;}   
+#capa1      { width:100%; height: 74px; border-bottom:3px  solid #FFFF93;} 
+*/
+#capa1      { width:100%; height: 74px; border-bottom:2px  solid   #999999;} 
+#capa2      { width:100%;border:0px dashed  #000000;}   
+
+#capa10      { width:100%; height:auto; border-bottom:2px  solid   #999999;} 
+#capa20      { width:100%; height:auto;border:0px dashed  #000000;}   

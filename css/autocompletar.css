@@ -1,0 +1,74 @@
+/* CSS Document */
+
+#list{
+list-style: inside;
+margin:0px 0px 0 10px;
+padding:0;
+position:absolute;
+z-index:1001;
+overflow: auto;
+border:1px solid #666  ;
+background:#FFF;
+max-height: 100px;
+
+-moz-border-radius: 5px 0px 5px 5px;
+-webkit-border-radius: 5px 0px 5px 5px;
+border-radius: 5px;
+}
+
+#list li{
+padding:3px;
+background:transparent; /* Old browsers */
+text-align: left;
+font-size:14px;  
+}
+
+#list div:hover{
+margin:1px;
+color: #FFF;
+background:#0099FF; 
+
+-moz-border-radius: 5px 0px 5px 5px;
+-webkit-border-radius: 5px 0px 5px 5px;
+border-radius: 5px;
+}
+
+
+.suggest-element{
+margin-left:2px;
+margin-top:2px;
+cursor:pointer;
+padding: 3px; background:#FAFAFA;
+border-bottom:1px solid  #CCC;
+background:transparent; /* Old browsers */
+text-align: left;
+font-size:12px;
+}
+#suggestions {
+width:450px;
+height:150px;
+overflow: auto;
+}
+
+.corto{
+  width: 90px;
+}
+
+.medio{
+  width: 150px;
+}
+
+.largo{
+  width: 300px;
+}
+
+.extralargo{
+  width: 450px;
+}
+
+.completo{
+  width:100%;
+} 
+
+ 
+
